@@ -115,16 +115,16 @@ pip install -r requirements.txt
 ```
 
 ### Full Reproduction Steps
-1.Place open-source & self-collected food images under data/ folder
-2.Run shared preprocessing scripts to extract unified feature vectors
-3.Execute each member’s independent Jupyter Notebook separately:
-    Run code/member1_svm/SVM.ipynb for SVM training & visualization
-    Run code/member2_random_forest/random+forest.ipynb for Random Forest experiments
-    Run code/member3_mlp/Food Classification.ipynb for NumPy MLP training
-4.All loss curves, confusion matrices, ROC charts auto-saved to exp_output/
-5.Cross-model comparison table generated for group report analysis
+1. Place open-source & self-collected food images under data/ folder
+2. Run shared preprocessing scripts to extract unified feature vectors
+3. Execute each member’s independent Jupyter Notebook separately:
+   - Run code/SVM.ipynb for SVM training & visualization
+   - Run code/random+forest.ipynb for Random Forest experiments
+   - Run code/Food Classification.ipynb for NumPy MLP training
+4. All loss curves, confusion matrices, ROC charts auto-saved to exp_output/
+5. Cross-model comparison table generated for group report analysis
 
 ### Group Contributors & Student IDs
-Selena Ji — SVM Model
-Estelle Ren — Random Forest Model
-Kiki Gao — NumPy MLP Model
+- Selena Ji — SVM Model
+- Estelle Ren — Random Forest Model
+- Kiki Gao — NumPy MLP Model
