@@ -1,4 +1,4 @@
-# DTS402_ML_GroupCW_Food_Classification
+# D,TS402_ML_GroupCW_Food_Classification
 
 ## Project Overview
 This group machine learning coursework implements a three-class food image classification task (bibimbap / chicken-curry / hamburger). Strict coding constraints: **No scikit-learn / PyTorch / TensorFlow**, all models & evaluation metrics coded purely with NumPy, Pandas, Matplotlib from scratch.
